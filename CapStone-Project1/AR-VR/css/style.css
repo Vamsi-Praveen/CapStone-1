@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Raleway&display=swap');
+:root{
+    --primary-color:#654AFF;
+    --card-color:#F0EDFF;
+    --para-color:#524b77;
+    --secoundary-color:#e5e5e5;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+header{
+    width: 100%;
+    height:70px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+header .logo
+{
+    width: 60px;
+    height: 30px;
+}
+header .menu
+{
+    width: 25px;
+    height: 20px;
+}
+.hero
+{
+    width: 100%;
+    height: 620px;
+}
+.hero .left-hero
+{
+    width: 40%;
+    height: 100%;
+    float: left;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.left-hero .content
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+.hero .right-hero
+{
+    width: 60%;
+    height: 100%;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/banner.jpg');
+}
+.hero .left-hero .line
+{
+    width: 120px;
+    height: 8px;
+    background-color: var(--primary-color);
+}
+.header-text
+{
+    color: var(--primary-color);
+    font-size: 48px;
+    letter-spacing: 3px;
+    line-height: 60px;
+}
+.content p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button{
+    color: #fff;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 20px 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 280px;
+    cursor: pointer;
+}
+.benifits
+{
+    width: 100%;
+    background-color: var(--primary-color);
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header-text2
+{
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.header-1
+{
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.vr-text
+{
+    letter-spacing: 3px;
+    font-size: 64px;
+}
+.para
+{
+    margin-top: 5px;
+    color: #fff;
+}
+.benifits .cards-container
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.benifits .cards-container .card
+{
+    width: 320px;
+    height: 390px;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+.benifits .cards-container .card .circle
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card-color);
+    border-radius: 50px;
+    margin: -40px 110px 0px;
+    
+}
+.circle i{
+    font-size: 40px;
+    color: var(--primary-color);
+}
+.cards-container .card .card-content
+{
+    margin: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards-container .card .card-content h3,.head
+{
+    color: #654AFF;
+    font-weight: bold;
+}
+.card-content p,.para-1{
+    line-height: 30px;
+    font-size: 18px;
+    color: var(--para-color);
+}
+.card-btn
+{
+    background: transparent;
+    padding: 8px;
+    outline: none;
+    border: 3px solid var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--para-color);
+    width: 100px;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 16px;
+}
+.card-btn.btn1
+{
+    margin-top: 20px;
+    width: 200px;
+    padding: 20px;
+}
+.virtual-reality
+{
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+}
+.layout
+{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+.layout .left{
+    margin-left: 100px;
+    width: 390px;
+    height: 620px;
+    background-image: url(../images/vr1.jpg);
+    background-size: cover;
+    float: left;
+}
+.layout .right
+{
+    width: 60%;
+    height: 100%;
+    float: right;
+    padding: 20px 35px;
+}
+.vr-content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.separator
+{
+    margin-top: 40px;
+    width: 90%;
+    height: 1px;
+    background-color: var(--para-color);
+}
+.vr-advantages
+{
+    width: 100%;
+    padding: 20px;
+}
+.vr-card
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    margin: 40px 0px;
+}
+.vr-card .vr-para
+{
+    width: 60%;
+    line-height: 25px;
+}
+.vr-advantages .circle{
+    width: 80px;
+    height: 80px;
+    background-color: var(--card-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vr-advantages .circle i{
+    font-size: 30px;
+}
+.vr-benifits
+{
+    width: 100%;
+    background-color: var(--secoundary-color);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.data_cards-container
+{
+    margin-top: 20px;
+    width: 80%;
+    padding: 20px;
+}
+.data_cards-container .data-card,.data-card-1,.data-card-2{
+    width: 100%;
+    height: 150px;
+    background-color: var(--card-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.data-card h1{
+    font-size: 90px;
+    color: var(--primary-color);
+}
+.data-card p{
+    color: var(--para-color);
+    line-height: 30px;
+    text-align: left;
+}
+.data-card.card2{
+    background-color: #fff;
+}
+.data-card.card3
+{
+    background-color: var(--primary-color);
+}
+.data-card.card3 h1, .data-card.card3 p{
+    color: #fff;
+}
+.vr-compare
+{
+    width: 100%;
+    padding: 25px;
+    height:100vh;
+}
+.vr-layout
+{
+    width: 100%;
+    height: 100%;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.layout-vr
+{
+    width: 80%;
+    height: 100%;
+}
+.vr-layout .layout-vr .left{
+    width: 50%;
+    height: 100%;
+    float:left;
+    padding-right: 60px;
+}
+.vr-layout .layout-vr .left p,.vr-layout .layout-vr .left h4
+{
+    line-height: 25px;
+}
+
+.layout-vr .right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: url('../images/girl_vr.jpg');
+    background-size: cover;
+}
+.layout-vr .circle
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card-color);
+    border-radius: 50px;
+}
+.layout-content
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.head-vr
+{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.main-banner
+{
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/bigbanner.jpg');
+    background-size: cover;
+    position: relative;
+}
+.main-content
+{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    background-color: #fff;
+    left: 90px;
+    top: 90px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.key-benifits
+{
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key-concepts
+{
+    width: 80%;
+    height: 90%;
+}
+.key-concepts .left{
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 20px;
+}
+.key-concepts .right{
+    width: 50%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+.key-concepts .left p{
+    margin-top: 10px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.key-concepts .left .cta{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.key-concepts .left .cta i
+{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+.light-heading
+{
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight:  500;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.followus
+{
+    width: 100%;
+    height:300px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.followus .icons{
+    margin-top: 20px;
+}
+.followus .icons i
+{
+    font-size: 30px;
+    color: #fff;
+    margin-right: 20px;
+}
+footer
+{
+    width: 100%;
+    height: 90px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
